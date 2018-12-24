@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.1/examples/offcanvas/offcanvas.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <title>Articles & Poll</title>
+   </head>
+    <body class="bg-light">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand mr-auto mr-lg-0" href="/redirected">Poll Results</a>
+          <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+       </nav>
+       
+      <main role="main" class="container">
+        <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
+          <img class="mr-3" src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">
+          <div class="lh-100">
+            <h6 class="mb-0 text-white lh-100">Instructions for using this page:</h6>
+            <ul>
+            <li><h6 class="mb-0 text-white lh-100">These are just example articles to demonstrate the concept of giving feedback after reading an article (Eg. Article 1, Article 2 etc. as shown below)</h6></li>
+            <li><h6 class="mb-0 text-white lh-100">To send feedback for the article, please click on the relevant article below (Eg. Article 1, Article 2 etc.) and submit the form that comes up</h6></li>
+            <li><h6 class="mb-0 text-white lh-100">To view results of the feedback poll, please click on the "Poll Results" tab on the top navigation of this page </h6></li>
+            <li><h6 class="mb-0 text-white lh-100">Please <a href = "/getarticles">click here </a> to get articles, if not already displayed (please wait for some time for page to refresh)</h6>
+              <small>Note: This page gets articles from a sample website which has limited number of articles for demo purposes. Clicking the link will add on to the current articles (if there are any) showing an actual scenario where new articles are being updated, but due to no updation being done on the created sample website, the article numbering will repeat after a certain number. The polling results will reflect those as new articles and update accordingly</small>
+            </li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="list-group" id = "articles">
+            <p><button type="button" class="list-group-item list-group-item-action active">
+                Current Articles
+              </button></p>
+          </div>
+        </div>
+           <div id = "dialog" title= "Feedback"><div id = "notes"></div></div>
+           <div id = "Results"></div>
+      </main>
+
+      <footer class = "container">
+        <p>&copy; Company 2017-2018</p>
+      </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="app.js"></script>
+    
+    </body>
+</html>
+
+
